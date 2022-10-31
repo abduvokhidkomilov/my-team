@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+p,li{
+    font-weight: 400px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
+}
+/* header navbar uchun stilalr */
+.header {
+    height: 60px;
+    background-color: rgb(4, 99, 105);
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.site_logo {
+    width: 15%;
+}
+.site_nav {
+    width: 50%;
+    float: left;
+}
+.site_list {
+    display: flex;
+}
+.site_item {
+    padding:0px 15px ;
+}
+.site_link {
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.site_link:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+.btn {
+    padding:8px 16px;
+    border-radius: 30px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+.btn:hover {
+    cursor: pointer;
+    color: greenyellow;
+    border-color: red;
+    transform: scale(1.1,1.1);
+}
+/* main part for styles */
+.hero {
+    background-color: rgb(4, 99, 105);
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    color: white;
+}
+.left {
+    width: 35%;
+}
+.left span{
+    color: rgb(231, 80, 156);
+}
+.hero_title {
+    font-size: 60px;
+}
+.right{
+    width:60%;
+}
+.right p{
+    width: 80%;
+}
+.right hr{
+    width: 50px;
+    border:2px solid white ;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    
+}
+ .hero2 {
+    height:450px;
+    display: flex ;
+    background-color: rgb(8, 66, 66);
+    align-items: center;
+    color: #fff;
+ }
+ .hero2_title {
+    width: 50%;
+    padding: 0px 50px;
+ }
+ .hero2_title  hr{
+    width: 50px;
+    border: 2px solid pink;
+    border-radius: 30px;
+ }
+  .hero2_title h2 {
+    width: 80%;
+    font-size: 30px;
+
+  }
+  .hero2_about {
+    padding-right: 44px;
+  }
+.about_part1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.text h4,p{
+    padding-top: 10px;
+}
+.text {
+    padding-left: 10px;
+}
+.text h4 {
+    color: rgb(167, 75, 75);
+}
+.hero3 {
+    height: 450px;
+    display: flex;
+    color: white;
+    background-color:  rgb(4, 99, 105);
+    padding: 0px 50px; 
+    align-items: center;
+}
+
+.partners h2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.partner_box {
+    display: flex;
+    width: 100%;
+}
+.partner {
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+.partner img {
+    width: 100px;
+    margin-top: 15px;
+}
+.partner h3{
+    padding-top: 15px;
+    color: wheat ;
+}
+ 
+.sign {
+    height: 80px;
+    background-color: rgb(226, 121, 83);
+}
+.login_text {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.left {
+    margin-left: 50px;
+}
+.rigt {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+}
+footer{
+    background-color: rgb(8, 66, 66);
+    color: #fff;
+}
+footer .container {
+    display: flex ;
+    padding: 0px 50px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.f_a_about{
+    margin-top: 25px;
+}
+
+.footer_logo{
+    width: 20%;
+}
+.footer_list{
+    align-items: center;
+    display: flex;
+}
+.footer_item{
+    padding:0px 10px;
+}
+.footer_link{
+    color: white;
+}
+.footer_about{
+    width: 40%;
+    float: left;
+}
