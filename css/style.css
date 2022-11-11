@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Livvic-bold';
+    src: url('../fonts/Livvic-Bold.woff2') format('woff2'),
+        url('../fonts/Livvic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic-600';
+    src: url('../fonts/Livvic-SemiBold.woff2') format('woff2'),
+    url('../fonts/Livvic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -6,13 +24,20 @@
     list-style: none;
 }
 body{
+    font-family: 'Livvic-600';
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
 }
-p,li{
-    font-weight: 400px;
+html {
+    height: 100%;
 }
 
+header {
+    background-color: rgb(4, 99, 105);
+}
 .container{
     width: 100%;
     max-width: 1200px;
@@ -22,7 +47,6 @@ p,li{
 /* header navbar uchun stilalr */
 .header {
     height: 60px;
-    background-color: rgb(4, 99, 105);
     padding: 0px 50px;
     display: flex;
     justify-content: space-between;
@@ -46,6 +70,8 @@ p,li{
     color: white;
     text-transform: uppercase;
     padding: 5px 10px;
+    font-size: 18px;
+    
 }
 .site_link:hover {
     cursor: pointer;
@@ -64,7 +90,13 @@ p,li{
     border-color: red;
     transform: scale(1.1,1.1);
 }
+.ancer {
+    color: white;
+}
 /* main part for styles */
+main {
+    background-color: rgb(4, 99, 105);
+}
 .hero {
     background-color: rgb(4, 99, 105);
     padding: 0px 50px;
@@ -73,18 +105,22 @@ p,li{
     align-items: center;
     height: 300px;
     color: white;
+    background-image: url(../Group\ 8.png);
+    background-repeat: no-repeat;
+    
 }
 .left {
-    width: 35%;
+    width: 55%;
 }
 .left span{
     color: rgb(231, 80, 156);
 }
-.hero_title {
-    font-size: 60px;
+.hero_title{
+    font-family: 'Livvic-bold';
+    font-size: 100px;   
 }
 .right{
-    width:60%;
+    width:40%;
 }
 .right p{
     width: 80%;
@@ -96,16 +132,24 @@ p,li{
     margin-bottom: 50px;
     
 }
- .hero2 {
+.hero2 {
+    background-color: rgb(8, 66, 66);
+}
+ .hero2 .container {
     height:450px;
     display: flex ;
-    background-color: rgb(8, 66, 66);
     align-items: center;
     color: #fff;
  }
  .hero2_title {
     width: 50%;
     padding: 0px 50px;
+ }
+ .hero2livic{
+    font-family: 'Livvic-bold';
+    font-size: 48px;
+    
+
  }
  .hero2_title  hr{
     width: 50px;
@@ -128,13 +172,20 @@ p,li{
     padding-top: 10px;
 }
 .text {
+    font-family: 'Livvic-bold';
+    font-size: 18px;
     padding-left: 10px;
 }
 .text h4 {
     color: rgb(167, 75, 75);
 }
+.name{
+    font-family: 'Livvic-bold';
+    font-size: 18px;
+    
+}
 .hero3 {
-    height: 450px;
+    height: 600px;
     display: flex;
     color: white;
     background-color:  rgb(4, 99, 105);
@@ -143,10 +194,11 @@ p,li{
 }
 
 .partners h2 {
-    width: 50%;
+    
     margin: auto;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 .partner_box {
     display: flex;
@@ -160,6 +212,7 @@ p,li{
 .partner img {
     width: 100px;
     margin-top: 15px;
+    margin-bottom: 60px;
 }
 .partner h3{
     padding-top: 15px;
@@ -167,13 +220,14 @@ p,li{
 }
  
 .sign {
-    height: 80px;
-    background-color: rgb(226, 121, 83);
+    height: 100px;
+    background-color: #F67E7E;
 }
 .login_text {
+    height: 100px;
     display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
 }
 .left {
     margin-left: 50px;
@@ -183,14 +237,21 @@ p,li{
     border-radius: 30px;
     background: transparent;
 }
+
+
+
+
+
+
 footer{
     background-color: rgb(8, 66, 66);
     color: #fff;
 }
-footer .container {
+footer .contai
+ner {
     display: flex ;
     padding: 0px 50px;
-    height: 100px;
+    height: 130px;
     justify-content: space-between;
     align-items: center;
 }

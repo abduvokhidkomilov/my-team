@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Livvic-bold';
+    src: url('../fonts/Livvic-Bold.woff2') format('woff2'),
+        url('../fonts/Livvic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic-600';
+    src: url('../fonts/Livvic-SemiBold.woff2') format('woff2'),
+    url('../fonts/Livvic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    height: 100%;
+}
+body{
+    font-family: 'Livvic-600';
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    background-color:rgb(4, 99, 105);
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* header navbar uchun stilalr */
+.header {
+    height: 60px;
+    background-color: rgb(4, 99, 105);
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.site_logo {
+    width: 15%;
+}
+.site_nav {
+    width: 50%;
+    float: left;
+}
+.site_list {
+    display: flex;
+}
+.site_item {
+    padding:0px 15px ;
+}
+.site_link {
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 18px;
+    
+}
+.site_link:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+.btn {
+    padding:8px 16px;
+    border-radius: 30px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+.btn:hover {
+    cursor: pointer;
+    color: greenyellow;
+    border-color: red;
+    transform: scale(1.1,1.1);
+}
+main {
+    flex-grow: 1;
+    height: 700px;
+}
+.contact {
+    background-color:rgb(4, 99, 105);
+    
+    
+}
+.ccontainer {
+    height: 700px;
+   display: flex;
+   padding: 0px 50px;
+   padding-top: 124px;
+   gap: 32px;
+   
+   
+    
+}
+.definition {
+    
+}
+.def-title {
+    font-family: 'Livvic-bold';
+    font-size: 64px;
+    line-height: 100px;
+    color: white;
+    margin-bottom: 16px;
+}
+.dif-about {
+    font-family: 'Livvic-bold';
+    line-height: 48px;
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #F67E7E;
+
+}
+.about_part1 {
+    display: flex;
+}
+.about_img1 {
+}
+.text {
+}
+.text h4 {
+    color: #FFFFFF;
+    font-family: 'Livvic-600';
+    font-size: 18px;
+    line-height: 28px;    
+}
+.signup {
+    width: 540px;
+}
+.signform {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.signup input,textarea {
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color:#F67E7E ;
+    border-bottom: 1px solid #fff;
+}
+
+.submit {
+    color: #004047;;
+    padding: 11px 32px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    width: 123px;
+    font-family: 'Livvic-600';
+    font-size: 18px;
+    line-height: 28px;
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(8, 66, 66);
+    color: #fff;
+}
+footer .container {
+    display: flex ;
+    padding: 0px 50px;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+.f_a_about{
+    margin-top: 25px;
+}
+
+.footer_logo{
+    width: 20%;
+}
+.footer_list{
+    align-items: center;
+    display: flex;
+}
+.footer_item{
+    padding:0px 10px;
+}
+.footer_link{
+    color: white;
+}
+.footer_about{
+    width: 40%;
+    float: left;
+}

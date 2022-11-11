@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Livvic-bold';
+    src: url('../fonts/Livvic-Bold.woff2') format('woff2'),
+        url('../fonts/Livvic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic-600';
+    src: url('../fonts/Livvic-SemiBold.woff2') format('woff2'),
+    url('../fonts/Livvic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Livvic-italic';
+    src: url('../fonts/Livvic-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Livvic-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Livvic-600';
+    font-size: 15px;
+    width: 100%;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* header navbar uchun stilalr */
+header .container {
+    background-color: rgb(4, 99, 105);
+}
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.site_logo {
+    width: 15%;
+}
+.site_logo img {
+     display: block;
+}
+.site_nav {
+    width: 50%;
+    float: left;
+}
+.site_list {
+    display: flex;
+}
+.site_item {
+    padding:0px 15px ;
+}
+.site_link {
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 18px;
+    
+}
+.site_link:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+.btn {
+    padding:8px 16px;
+    border-radius: 30px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+.btn a{
+    color: white;
+}
+.btn:hover {
+    cursor: pointer;
+    color: greenyellow;
+    border-color: red;
+    transform: scale(1.1,1.1);
+}
+main {
+    flex-grow: 1;
+}
+/* section one */
+.about {
+    height: 400px;
+}
+.about .container {
+    background-color: rgb(4, 99, 105);
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.about-title {
+    width: 350px;
+    font-family: 'Livvic-bold';
+    font-size: 64px;
+    
+}
+.about-text {
+    width: 730px;
+}
+.line {
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    border: none;
+}
+.text {
+    font-family: 'Livvic-600';
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* section two */
+.meet {
+    height: 1002px;
+  
+}
+.meet .container {
+    height: 100%;
+    color: #fff;
+    background-color: #004047;
+}
+.mett-title {
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Livvic-bold';
+    line-height: 48px;
+    font-size: 48px;
+    margin-bottom: 64px;
+}
+.persons {
+    display: flex;
+    gap: 76px;
+    flex-direction: column;
+}
+.person-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.nikita-box {
+    width: 350px;
+    height: 253px;
+    background-color:#012F34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nikita-img {
+    margin-bottom: 16px;
+}
+.nikita-title {
+    color: #79C8C7;
+    font-family: 'Livvic-bold';
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+.nikita-about {
+    font-family: 'Livvic-italic';
+    font-size: 15px;
+    line-height: 25px;
+    
+}
+.nikita-about2 {
+    width: 254px;
+}
+.icon-plus {
+    position: absolute;
+    bottom: -27px;
+}
+.person-list2 {
+}
+/* section three */
+
+.clients .container {
+    height: 437px;
+    background-color: #012F34;
+    color: white;
+}
+.clients-title {
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Livvic-bold';
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 70px;
+}
+.client-list {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-size: 25px;
+
+}
+.verge {
+}
+.jakart {
+}
+.guardin {
+}
+.techradar {
+}
+.gatgets {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sign {
+    height: 100px;
+    background-color: #F67E7E;
+}
+
+.login_text {
+    height: 100px;
+    display: flex;
+    gap:500px;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    margin-left: 50px;
+}
+.rigt {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+}
+
+footer{
+    background-color: rgb(8, 66, 66);
+    color: #fff;
+}
+footer .container {
+    display: flex ;
+    padding: 0px 50px;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+.f_a_about{
+    margin-top: 25px;
+}
+
+.footer_logo{
+    width: 20%;
+}
+.footer_list{
+    align-items: center;
+    display: flex;
+}
+.footer_item{
+    padding:0px 10px;
+}
+.footer_link{
+    color: white;
+}
+.footer_about{
+    width: 40%;
+    float: left;
+}
